@@ -1,0 +1,210 @@
+h1 {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0px;
+    background-color: chartreuse;
+    border-radius: 10px;
+   
+    flex-shrink: 0;
+    
+    
+
+    
+    
+  }
+
+  .img-Carronlina{
+    width: 300px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+  .roboto-thin{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    
+    
+
+
+    
+    
+  }
+
+  .Div-Hi-iiiImg{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding-left: 670px;
+    padding-right: 10px;
+    
+      
+  }
+
+  .D-iv-Img{
+    display: flex;
+    width: 150px;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 35px;
+  }
+  
+  nav {
+    display: flex;
+    font-family: "Roboto", serif;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+    column-gap: 30px;
+    
+  }
+
+
+  a {
+    text-decoration: none;
+    padding: 0px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-wrap: none;
+
+
+
+  }
+
+  .All-Main-Div{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    
+    
+  }
+
+
+
+  body {
+    height: 3000px;
+  }
+  
+  .SALE{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+  }
+
+  .Div-Middle-Phrase{
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    right:  100px;
+    width: 600px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .Div-Middle-Phrase div{
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+  }
+
+  .Middle-Phrases{
+    width: 600px;
+  }
+
+  .SHOp{
+    padding-left: 200px;
+  }
+
+
+  /* For mobile devices (600px and below) */
+@media (max-width: 600px) {
+    .Div-Hi-iiiImg {
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+  
+    nav {
+      flex-direction: column;
+      height: auto;
+      row-gap: 15px;
+    }
+  
+    .Div-Middle-Phrase {
+      position: relativehover;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .Middle-Phrases {
+      width: 100%;
+    }
+  
+    .SHOp {
+      padding-left: 20px;
+    }
+  }
+  
+  /* For tablet devices (601px to 910px) */
+  @media (min-width: 601px) and (max-width: 910px) {
+    .Div-Hi-iiiImg {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    .Div-Middle-Phrase {
+      left: 50px;
+      right: 50px;
+      width: auto;
+    }
+  
+    .Middle-Phrases {
+      width: 100%;
+    }
+  
+    .SHOp {
+      padding-left: 100px;
+    }
+  }
+  
+  /* For desktop devices (911px to 1200px) */
+  @media (min-width: 911px) and (max-width: 1200px) {
+    .Div-Hi-iiiImg {
+      padding-left: 200px;
+      padding-right: 20px;
+    }
+  
+    .Div-Middle-Phrase {
+      left: 150px;
+      width: 500px;
+    }
+  }
+  
+
+ 
+ 

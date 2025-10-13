@@ -1,0 +1,999 @@
+.Header-Div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 30px;
+    border-width: 1px;
+    border-color: aliceblue;
+    border-style: double;
+    z-index: 1;
+
+    
+}
+
+
+body {
+   
+     
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.bismillah {
+  position: relative;
+}
+
+.nav-container {
+  position: relative;
+  display: inline-block;
+}
+
+.Img-Hamburger {
+  cursor: pointer;
+}
+
+.nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.nav-container:hover .nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  margin-bottom: 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: block;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+.Img-Account{
+    cursor: pointer;
+    display: inline-block;
+}
+
+ 
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+a{
+    font-size: small;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+.Img-Hamburger{
+    width: 16px;
+  
+}
+
+.Img-Logo{
+    width: 280px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.Img-Bag,.Img-Search,.Img-Account{
+    width: 20px;
+    margin: 5px;
+}
+
+
+
+.Three-Img{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+
+
+
+
+.fixed-div{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 31px;
+}
+
+.img-body {
+    width: 100%;                            /*  altered */
+    height: 470px;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    
+    
+}
+
+
+.pink{
+    position: relative;
+    
+    
+
+
+}
+
+
+.NaV{
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    pointer-events: none;
+    margin: 0;
+    padding: 5px;
+  
+}
+
+.black{
+    position: relative;
+}
+
+.type-Search::placeholder{
+    font-weight: bold;
+    padding-left: 25px;
+
+    
+}
+
+.black:hover .type-Search{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.type-Search{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    left: -25px;
+    bottom: -16px;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    background-color: white;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+
+
+}
+   
+.NavLast ul{
+    padding: 0px;
+    margin: 0;
+    
+}
+
+.pink:hover .NavLast {
+    opacity: 1;
+    visibility: visible;
+}
+
+.NavLast {
+    position: absolute;
+    top: 100%;
+    white-space: nowrap;
+    right: 0;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+    text-decoration-color: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.Acount-Settings{
+    position: relative;
+}
+.Acount-Settings:hover .NaV{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Base styles for smaller screens */
+.Middle-Phrase1, .Middle-Phrase {
+    position: relative;
+    bottom: 160px;
+    font-size: 16px; /* Start with a smaller base size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;         /*  altered */
+}
+
+.Middle-Phrase3 {
+    position: relative;
+    bottom: 140px;
+    font-weight: bold;
+    font-size: 16px;          /*  altered */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;        /*  altered */
+}
+
+
+
+
+
+.phrase-span {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px 15px;          /*  altered */
+    display: inline-block;      /*  altered */
+}
+
+
+
+button {
+    text-wrap: none;
+    min-width: max-content;
+    
+    
+}
+
+
+                        
+.Div-Buttons {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    margin-top: 505px;
+
+
+    
+}
+
+
+.button-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: 1px; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    gap: 50px;
+    padding-bottom: 10px; /* Space for potential scrollbar */
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 100%;
+    
+    
+}
+
+.filter-button{
+   color: black;
+   font-weight: bold;
+   border-radius: 5px;
+   border: none; 
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.DIV-iMG{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 10px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    
+    
+    
+}
+
+.div-Img-11{
+     display: flex;
+     width: 1000%;
+     gap: 50px;
+
+     
+}
+
+.DIV-iMG div{
+   
+}
+
+.imgWidht{
+   
+}
+
+.S-F-D{
+   
+}
+
+
+
+.S-F-D{
+    /* position: absolute;
+    bottom: 0px !important;
+    padding-left: 30% !important;
+    padding-right: 50% !important; */
+    font-weight: bold !important;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+
+
+
+
+.blocK{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.roboto-regular{
+    margin-top: 40px;
+}
+
+.roboto-regular div{
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .JOIN-US{
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+.JOIN-US button{
+    font-weight: bold;
+    color: green;
+    text-decoration: line-through;
+    text-decoration-color: red !important;
+}
+
+.RED-BG div{
+    font-size: 36px;
+}
+.Img-Div-Red-Bg{
+   margin-top: 40px;
+   
+
+}
+
+.Button-Nav{
+    border: none;
+    }
+
+.RED-BG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px 60px 0px ;
+    background-color: red;}
+    
+.ERDspan{
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    
+}
+
+.FoNt span{
+    text-decoration: underline;
+}
+
+.DIv-AlL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.TAWC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TAWC div{
+   font-size: 23px;
+   font-weight: 400;
+}
+
+.DIv-AlL button{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.ButtOn{
+    margin-top: 10px;
+}
+
+.Male-Perfumes{
+    background-color: rgb(255, 254, 254);
+    border-color: rgb(205, 202, 202);
+    border-width: 1px;
+    border-style: double;
+    display: grid;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 7px;
+    
+    
+}
+
+.Girl-Perfumes{
+    background-color: rgb(255, 254, 254);
+    border-color: rgb(205, 202, 202);
+    border-width: 1px;
+    border-style: double;
+    display: grid;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    right: 7px;
+}
+
+
+
+.Add{
+    padding: 0px;
+    width: 12px;
+    margin-top: 10px;
+}
+
+.fellas-Cook{
+    position: relative;
+    
+   
+    
+   
+
+
+    
+}
+
+.club{
+    border-radius: 10px;
+}
+.cook-wid-me{
+    display: flex;
+    width: 300%;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    
+}
+
+.muve{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-x: auto;
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 15px;
+  
+   
+}
+
+.ImG{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.ImG img{
+    border-radius: 10px;
+}
+.AllGooD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.All-I-O-F{
+    font-size: x-large;
+   
+}
+
+.ImG div{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.InT-Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 45px;
+    left: 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Alp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    color: black;
+    left: 60%;
+    background-color: aliceblue;
+}
+
+.Img-Home-Footer{
+    margin-top: 20px;
+}
+
+.Sign-Up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    padding: 30% 0 30% 0;
+}
+
+.FoNt{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+
+.Input-Div{
+    margin-top: 30px;
+}
+
+.One{
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(215, 212, 212);
+    border-style: double;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.Two{
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.All-gp{
+    margin-top: 30px;
+    background-color: red;
+    padding: 40px 0 40px 0;
+    margin-bottom: 5%;
+}
+.Coll div{
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.All-Over{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.All-Over img{
+    width: 20px;
+}
+
+.All-Over div{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+@media (min-width: 1024px){
+    .Middle-Phrase,.Middle-Phrase1,.Middle-Phrase,.Middle-Phrase3{
+        bottom: 200px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1440px){
+    .Middle-Phrase,.Middle-Phrase1,.Middle-Phrase3{
+        bottom: 260px;
+        
+    }
+}
+
+
+
+/* Make padding responsive too */     
+@media (min-width: 1024px) {       /*  altered */  
+    .phrase-span {
+        padding: 8px 20px;         
+    }
+}
+
+@media (min-width: 1440px) {
+    .phrase-span {
+        padding: 10px 25px;
+    }
+}
+
+
+
+
+/* Make padding responsive too */
+@media (min-width: 1024px) {      /*  altered */
+    .phrase-span {
+        padding: 8px 20px;
+    }
+}
+
+@media (min-width: 1440px) {     /*  altered */
+    .phrase-span {
+        padding: 10px 25px;
+    }
+}
+
+   /* Make Bottom Div responsive */
+@media (min-width: 1024px) {
+    .Div-Midle-Phrase {
+        
+    }
+}
+
+@media (min-width: 1440px){
+    .Div-Midle-Phrase{
+       
+    }
+}
+
+
+
+
+@media (min-width: 600px) {
+    .img-for-desktop {
+        width: 100%;                          /*  altered */
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+
+@media (min-width: 750px) {
+    .img-for-desktop {
+        width: 100%;
+        height: auto;                           /*  altered */
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 990px) {
+    .img-for-desktop {
+        width: 100%;
+        height: auto;                           /*  altered */
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-for-desktop {
+        width: 100%;                            /*  altered */
+        height: auto;
+        max-width: 2560px;
+        margin: 0 auto;
+    }
+}
+
+
+
+                        /* button */
+
+
+
+
+@media (width >= 600px) {
+    .button-container,.filter-button{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        font-size: 17px;
+        justify-content: center;
+
+        
+
+    }
+
+}   
+
+
+@media ( width < 600px ){
+    .RED-BG{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+
+@media (width >= 600px){
+    .div-Img-11{
+      width: 350%;
+      
+     
+    }
+}
+
+@media (width >= 600px){
+    .imgWidht{
+        border-radius: 15px;
+    }
+}
+
+@media ( width >= 600px){
+    .roboto-regular {
+        font-size: 20px;
+    }
+}
+
+
+@media ( width >= 600px){
+    .img-Webktic{
+        width: 35%;
+    }
+}
+
+@media (width >= 600px){
+    .img-Webktic{
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        align-items: center;
+        
+    }
+}
+
+
+@media (width >= 600px){
+    .fonty{
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 35px;
+        font-family: "Lugrasimo", serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        
+          
+        
+
+       
+    }
+}
+
+@media (width >= 600px){
+    .PgPt{
+       margin-left: 40%;   
+     
+    }
+
+}
+
+@media (width >= 600px){
+    .Img-Div-Red-Bg{
+        background-color: rgb(224, 224, 224);
+    }
+}
+
+@media (width >= 600px) {
+    .RED-BG div{
+        font-size: 50px;
+        line-height: 130%;
+    }
+}
+
+@media (width >= 600px){
+    .fellas-Cook{
+        width: 30%;
+        
+    }
+}
+
+@media (width >= 600px) {
+    .muve{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (width >= 600px) {
+    .club{
+        border-radius: 10px;
+    }
+}
+
+@media (width >= 600px) {
+     .All-I-O-F{
+        
+     }
+     
+}
+
+@media (width >= 600px) {
+    .whm{
+      
+        height: 800px;
+        object-fit: cover;
+        object-position: contain;
+    }
+        
+}
+
+
+@media (width >= 600px) {
+    .Input-Div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        
+    }
+}
+
+@media (width >= 600px) {
+    .One,.Two{
+        width: 20%;
+        height: 40px;
+        border-radius: 100px;
+        
+    }
+
+}
+@media (width >= 600px){
+    .{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+}
+
+@media (width >= 600px){
+    .Sign-Up{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: antiquewhite;
+        padding: 10% 0 10% 0;
+    }
+}
